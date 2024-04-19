@@ -529,6 +529,7 @@ while flag:
             flag = True
             break
         else:
+
             print(
                 f"{_max_proc[_max_ind] - _min_proc[_min_ind]} >= {delta} or {_max_proc[_max_ind]} < {_min_proc[_min_ind]}")
             flag = False
